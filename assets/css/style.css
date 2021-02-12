@@ -36,16 +36,9 @@ body {
    transition: all .2s ease;
 }
 
-.header-logo:hover {
-   transform: scale(1.03);
-}
-
 .menu-open {
    cursor: pointer;
    transition: all .1s ease;
-}
-.menu-open:hover{
-   transform: rotate(360deg);
 }
 
 ._blue-bg {
@@ -88,7 +81,9 @@ body {
    transition: all .2s ease;
    cursor: pointer;
 }
-
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+   cursor: pointer;
+}
 .s1__button a {
    opacity: 0.74;
    font-family: Montserrat;
@@ -106,7 +101,7 @@ body {
 }
 
 .main-menu {
-   position: absolute;
+   position: fixed;
    top: 0;
    left: 0;
    width: 100%;
@@ -145,7 +140,9 @@ body {
 .menu-list {
    list-style-type: none;
    padding-top: 30px;
-   display: block;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
 }
 
 .menu-link {
@@ -214,11 +211,6 @@ body {
    justify-content: center;
    transition: all .2s ease;
 }
-
-.menu__close:hover {
-   transform: rotate(360deg);
-}
-
 .menu__close span::before,
 .menu__close span::after {
    content: "";

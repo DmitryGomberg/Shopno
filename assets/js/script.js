@@ -3,6 +3,12 @@ $(document).ready(function(){
        $('.main-menu__part-left,.main-menu__part-right').toggleClass('active');
        $('body').toggleClass('lock');
    });
+   $('.offer__button1, .offer-close1').click(function(event){
+      $('.offer__more1').toggleClass('_active');
+   });
+   $('.offer__button2, .offer-close2').click(function(event){
+      $('.offer__more2').toggleClass('_active');
+   });
    $(document).ready(function() {
       $('.works').magnificPopup({
          delegate: 'a',

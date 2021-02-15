@@ -9,6 +9,18 @@ $(document).ready(function(){
    $('.offer__button2, .offer-close2').click(function(event){
       $('.offer__more2').toggleClass('_active');
    });
+   $('.offer__button3, .offer-close3').click(function(event){
+      $('.offer__more3').toggleClass('_active');
+   });
+   $('.offer__button4, .offer-close4').click(function(event){
+      $('.offer__more4').toggleClass('_active');
+   });
+   $('.offer__button5, .offer-close5').click(function(event){
+      $('.offer__more5').toggleClass('_active');
+   });
+   $('.offer__button6, .offer-close6').click(function(event){
+      $('.offer__more6').toggleClass('_active');
+   });
    $(document).ready(function() {
       $('.works').magnificPopup({
          delegate: 'a',

@@ -400,8 +400,8 @@ body {
    padding: 125px 0;
 }
 .offers {
-   margin-bottom: 120px;
    width: 100%;
+   margin-top: 120px;
 }
 .offer1 {
    width: 57%;
@@ -420,6 +420,62 @@ body {
 .offer2 {
    width: 41%;
    background-image: url(../images/phone2.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 50px 60px;
+   min-height: 410px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   overflow: hidden;
+}
+.offer3 {
+   width: 57%;
+   background-image: url(../images/phone1.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 50px 60px;
+   min-height: 410px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   overflow: hidden;
+}
+.offer4 {
+   width: 41%;
+   background-image: url(../images/phone3.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 50px 60px;
+   min-height: 410px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   overflow: hidden;
+}
+.offer5 {
+   width: 41%;
+   background-image: url(../images/phone4.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 50px 60px;
+   min-height: 410px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   overflow: hidden;
+}
+.offer6 {
+   width: 57%;
+   background-image: url(../images/phone5.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -499,6 +555,18 @@ body {
 .offer__more2._active{
    transform: translateX(0);
 }
+.offer__more3._active{
+   transform: translateX(0);
+}
+.offer__more4._active{
+   transform: translateX(0);
+}
+.offer__more5._active{
+   transform: translateX(0);
+}
+.offer__more6._active{
+   transform: translateX(0);
+}
 .offer__title-black {
    color: #000000;
    margin-bottom: 30px;
@@ -506,6 +574,7 @@ body {
 .offer__row{
    display: flex;
    justify-content: space-between;
+   margin-top: 20px;
 }
 .offer__text-black{
    color: #000000;

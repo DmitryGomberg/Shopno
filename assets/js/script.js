@@ -42,11 +42,11 @@ $(document).ready(function(){
 
 
 
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.s2-container', {
  
    // If we need pagination
    pagination: {
-     el: '.swiper-pagination',
+     el: '.s2-swiper-pagination',
      clickable: true,
    },
    spaceBetween: 10,
@@ -57,3 +57,34 @@ const swiper = new Swiper('.swiper-container', {
      
    },
  });
+
+ const swiperPeop = new Swiper('.s6-container', {
+ 
+   // If we need pagination
+   pagination: {
+     el: '.s6-swiper-pagination',
+     clickable: true,
+   },
+   slidesPerView: 1,
+   spaceBetween: 10,
+ });
+
+ const swiperCom = new Swiper('.s6-container-com', {
+ 
+   // If we need pagination
+   pagination: {
+     el: '.s6-swiper-pagination-com',
+     clickable: true,
+   },
+   slidesPerView: 1,
+   spaceBetween: 10,
+   // Navigation arrows
+   navigation: {
+     nextEl: '.swiper-next',
+     prevEl: '.swiper-prev',
+     
+   },
+ });
+
+ swiperCom.controller.control = swiperPeop;
+ swiperPeop.controller.control = swiperCom;

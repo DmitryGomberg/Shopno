@@ -51,7 +51,7 @@ body {
 .s1__title {
    width: 100%;
    text-align: center;
-   padding-top: 140px;
+   padding-top: 140px;   
 }
 
 .header__title-p {
@@ -60,16 +60,25 @@ body {
    font-weight: 700;
    text-transform: uppercase;
    letter-spacing: 0.06em;
-   color: #505050;
+   color: #505050; 
 }
-
 .s1__button-wrap {
    width: 100%;
    padding-top: 140px;
    display: flex;
    justify-content: center;
 }
-
+.s1__button a {
+   opacity: 0.74;
+   font-family: Montserrat;
+   font-size: 18px;
+   line-height: 28px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 0.12em;
+   color: #000000;
+   text-decoration: none;
+}
 .s1__button {
    min-height: 53px;
    padding: 0 44px;
@@ -83,21 +92,59 @@ body {
    cursor: pointer;
 }
 
+
+.s1__decor {
+   position: absolute;
+   right: 221px;
+   bottom: 150px;
+}
+
+@media(max-width: 991px){
+   .header__title-p {
+      font-size: 30px;
+   }
+   .s1__title{
+      padding-top: 70px;  
+   }
+   .s1__button-wrap {
+      padding-top: 70px;
+   }
+}
+@media(max-width: 479px){
+   .header__title-p {
+      font-size: 21px;
+   }
+   .header__logo>a>img{
+      width: 79px;
+   }
+   .menu-open>img{
+      width: 20px;
+   }
+   ._blue-bg {
+      padding: 3px;
+      background-color: #b2f2ee;
+      color: #505050;
+   }
+   .s1__button a {
+      font-size: 11px;
+   }
+   .s1__button{
+      min-height: 36px;
+      padding: 0px 21px;
+   }
+   .s1 {
+      min-height: 591px;
+   }
+   .s1__decor {
+      position: absolute;
+      right: 221px;
+      bottom: 32px;
+   }
+}
+
 .mfp-zoom-out-cur,
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
    cursor: pointer;
-}
-
-.s1__button a {
-   opacity: 0.74;
-   font-family: Montserrat;
-   font-size: 18px;
-   line-height: 28px;
-   font-weight: 400;
-   text-transform: uppercase;
-   letter-spacing: 0.12em;
-   color: #000000;
-   text-decoration: none;
 }
 
 .s1__button:hover {
@@ -233,12 +280,6 @@ body {
 .menu__close span::before {
    transform: rotate(-45deg);
    left: 2px;
-}
-
-.s1__decor {
-   position: absolute;
-   right: 221px;
-   bottom: 150px;
 }
 
 .s2 {

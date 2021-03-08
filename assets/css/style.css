@@ -112,13 +112,13 @@ body {
 }
 @media(max-width: 479px){
    .header__title-p {
-      font-size: 21px;
+      font-size: 30px;
    }
-   .header__logo>a>img{
+   .header__logo>a>img{.
       width: 79px;
    }
    .menu-open>img{
-      width: 20px;
+      width: 30px;
    }
    ._blue-bg {
       padding: 3px;
@@ -126,19 +126,19 @@ body {
       color: #505050;
    }
    .s1__button a {
-      font-size: 11px;
+      font-size: 20px;
    }
    .s1__button{
       min-height: 36px;
-      padding: 0px 21px;
+      padding: 7px 21px;
    }
    .s1 {
       min-height: 591px;
    }
    .s1__decor {
       position: absolute;
-      right: 221px;
-      bottom: 32px;
+      right: 10px;
+      bottom: 5px;
    }
 }
 
@@ -360,11 +360,11 @@ body {
       
    } 
    .description__title {
-      font-size: 25px;
+      font-size: 29px;
    }
    .decription__subtitle {
       padding: 0 15px;
-      font-size: 14px;
+      font-size: 18px;
    }
    .swiper-slide>img{
       height: 340px;
@@ -750,7 +750,17 @@ body {
    }
    
 }
-
+@media(max-width: 479px){
+   .offer1,
+   .offer2,
+   .offer3,
+   .offer4,
+   .offer5,
+   .offer6
+   {
+      width: 100%;
+   }
+}
 @media(max-width: 479px){
    .offer__title {
       opacity: 0.94;
@@ -758,7 +768,7 @@ body {
       font-size: 16px;
    }
    .offer__text {
-      font-size: 13px;
+      font-size: 15px;
    }    
    .offer__button {
       font-size: 14px;
@@ -912,7 +922,7 @@ body {
 }
 @media(max-width: 479px){
    .s5__team-item {
-      width: 70%;
+      width: 90%;
       margin: 0 auto;
       margin-bottom: 20px;
    }
@@ -921,7 +931,7 @@ body {
    }
    .s5__info {
       padding: 10px;
-      max-height: 255px;
+      max-height: 200px;
       overflow: auto;
    }
 }

@@ -1,3 +1,10 @@
+var highlightedItems = document.querySelectorAll('.swiper-container');
+
+highlightedItems.forEach(function(userItem) {
+  userItem.classList.add('swiper');
+});
+
+
 $(document).ready(function(){
    $('.menu-open, .menu__close').click(function(event){
        $('.main-menu__part-left,.main-menu__part-right').toggleClass('active');
